@@ -1,4 +1,4 @@
-A minimalist template for calling Rust from Python. The projectis run on DevContainer.
+A minimalist template for calling Rust from Python. The project runs on a DevContainer.
 
 Note: the Rust code is built by running `.devcontainer/postCreateCommand.sh` automatically.
 If the build fails, you can inspect that file.
