@@ -26,12 +26,12 @@
             ],
             "settings": {
                 // Specify the path to Python and to the virtual environment.
-                "python.defaultInterpreterPath" : "/workspaces/${localWorkspaceFolderBasename}/.venv/bin/python",
-                "python.venvPath": "/workspaces/${localWorkspaceFolderBasename}/.venv"
+                "python.defaultInterpreterPath" : "/workspaces/${localWorkspaceFolderBasename}/rust_lib/.venv/bin/python",
+                "python.venvPath": "/workspaces/${localWorkspaceFolderBasename}/rust_lib/.venv"
             }
         }
     },
     "containerEnv": {
-        "UV_PROJECT_ENVIRONMENT": "/workspaces/${localWorkspaceFolderBasename}/.venv"
+        "UV_PROJECT_ENVIRONMENT": "/workspaces/${localWorkspaceFolderBasename}/rust_lib/.venv"
     }
 }
